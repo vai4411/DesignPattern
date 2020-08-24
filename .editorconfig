@@ -1,0 +1,7 @@
+﻿[*.{cs,vb}]
+
+# IDE0060: Remove unused parameter
+dotnet_code_quality_unused_parameters = all:none
+
+# SA1636: File header copyright text should match
+dotnet_diagnostic.SA1636.severity = none
